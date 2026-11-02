@@ -16,7 +16,7 @@
     <Product>AirScope</Product>
     <Description>Wi-Fi analyser for Windows</Description>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon />
+    <ApplicationIcon>Assets\airscope.ico</ApplicationIcon>
     <TieredPGO>true</TieredPGO>
   </PropertyGroup>
 
@@ -31,6 +31,8 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\oui.txt.gz" LogicalName="AirScope.oui.txt.gz" />
+    <!-- App icon: Assets\airscope.svg is the source (airscope-small.svg for 24-32 px, airscope-16.svg for 16 px). -->
+    <Resource Include="Assets\airscope.ico" />
   </ItemGroup>
 
 </Project>

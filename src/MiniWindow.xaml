@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:ui="clr-namespace:AirScope.UI"
-        Title="AirScope mini" Width="270" Height="132" WindowStyle="None" AllowsTransparency="True"
+        Title="AirScope mini" Icon="Assets/airscope.ico" Width="270" Height="132" WindowStyle="None" AllowsTransparency="True"
         Background="Transparent" Foreground="{StaticResource TextBrush}" FontFamily="{StaticResource UiFont}" FontSize="13" ResizeMode="NoResize" ShowInTaskbar="True" Topmost="True"
         MouseLeftButtonDown="OnDrag" MouseDoubleClick="OnDoubleClick">
     <Border Background="#EE161A21" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="12" Padding="12,10">
