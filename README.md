@@ -3,12 +3,12 @@
 **A fast, modern, read-only Wi-Fi analyser for Windows 10 and 11.**
 
 <p>
-  <a href="https://github.com/geodnb/AirScope/releases/latest/download/AirScope.exe"><img alt="Download AirScope.exe" src="https://img.shields.io/badge/Download-AirScope.exe-3DD6C6?style=for-the-badge&logo=windows&logoColor=white"></a>
-  <a href="https://github.com/geodnb/AirScope/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/geodnb/AirScope?style=for-the-badge&label=Latest&color=2A313C"></a>
+  <a href="https://github.com/geodnb/AirScope-Wifi/releases/latest/download/AirScope.exe"><img alt="Download AirScope.exe" src="https://img.shields.io/badge/Download-AirScope.exe-3DD6C6?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/geodnb/AirScope-Wifi/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/geodnb/AirScope-Wifi?style=for-the-badge&label=Latest&color=2A313C"></a>
   <a href="LICENSE.md"><img alt="Licence: PolyForm Noncommercial" src="https://img.shields.io/badge/Licence-PolyForm%20Noncommercial-2A313C?style=for-the-badge"></a>
 </p>
 
-> **[⬇ Download AirScope.exe](https://github.com/geodnb/AirScope/releases/latest/download/AirScope.exe)** — single portable file, no installer, no admin rights. &nbsp;·&nbsp; [All releases](https://github.com/geodnb/AirScope/releases)
+> **[⬇ Download AirScope.exe](https://github.com/geodnb/AirScope-Wifi/releases/latest/download/AirScope.exe)** — single portable file, no installer, no admin rights. &nbsp;·&nbsp; [All releases](https://github.com/geodnb/AirScope-Wifi/releases)
 
 AirScope is a GUI Windows tool providing a live signal graph for your own connection, every nearby network with accurate channel width and Wi-Fi generation, a channel advisor that understands UK rules, and timed spot tests for fair before/after comparisons.
 
@@ -262,7 +262,7 @@ Press **Record** to log every live sample and every scan to CSV files in `Docume
 
 ## Getting started
 
-1. [Download `AirScope.exe`](https://github.com/geodnb/AirScope/releases/latest/download/AirScope.exe) from the [latest release](https://github.com/geodnb/AirScope/releases/latest) and put it in any folder you like.
+1. [Download `AirScope.exe`](https://github.com/geodnb/AirScope-Wifi/releases/latest/download/AirScope.exe) from the [latest release](https://github.com/geodnb/AirScope-Wifi/releases/latest) and put it in any folder you like.
 2. Double-click it. No installation or admin rights are needed.
 3. **First run:** because the exe isn't code-signed, Windows SmartScreen may warn you. Click **More info**, then **Run anyway**.
 4. If you have more than one Wi-Fi adapter, choose the one you want from the drop-down at the top.
@@ -379,8 +379,8 @@ To remove AirScope completely, delete the exe and these two folders.
 Requires the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 ```powershell
-git clone https://github.com/geodnb/AirScope.git
-cd AirScope\src
+git clone https://github.com/geodnb/AirScope-Wifi.git
+cd AirScope-Wifi\src
 
 # Run from source
 dotnet run -c Release
@@ -421,4 +421,4 @@ AirScope is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md
 
 You're free to use, study, modify and share it for **non-commercial** purposes. You may **not** sell it, or use it or derivatives of it commercially, without permission.
 
-Required Notice: Copyright (C) 2026 geodnb (https://github.com/geodnb/AirScope)
+Required Notice: Copyright (C) 2026 geodnb (https://github.com/geodnb/AirScope-Wifi)

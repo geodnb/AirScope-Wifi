@@ -1,4 +1,4 @@
-Required Notice: Copyright (C) 2026 geodnb (https://github.com/geodnb/AirScope)
+Required Notice: Copyright (C) 2026 geodnb (https://github.com/geodnb/AirScope-Wifi)
 
 # PolyForm Noncommercial License 1.0.0
 
