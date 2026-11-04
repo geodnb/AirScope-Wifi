@@ -31,7 +31,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\oui.txt.gz" LogicalName="AirScope.oui.txt.gz" />
-    <!-- App icon: Assets\airscope.svg is the source (airscope-small.svg for 24-32 px, airscope-16.svg for 16 px). -->
+    <!-- App icon: Assets\airscope.svg is the source (airscope-small.svg for 32 px; airscope-24.svg and airscope-16.svg are pixel-grid drawings for 24 and 16 px). -->
     <Resource Include="Assets\airscope.ico" />
   </ItemGroup>
 
